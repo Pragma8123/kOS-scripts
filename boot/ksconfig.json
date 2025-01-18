@@ -1,7 +1,3 @@
 {
-  "archive": "..",
-  "bodies": ["earth", "moon", "sun"],
-  "linting": {
-    "control-flow-break": "off"
-  }
+  "archive": ".."
 }
