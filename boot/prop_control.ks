@@ -41,7 +41,7 @@ local function panic {
 // Infinite loop
 until 0 {
     // Min prop angle of 9 and max of 40
-    set propangle to calc_ideal_angle.
+    set propangle to calc_ideal_angle(airspeed).
     set_propangle(propangle).
 
     // Print stats
